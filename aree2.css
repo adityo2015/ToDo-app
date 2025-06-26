@@ -1,0 +1,46 @@
+body{
+    font-family: Arial;
+    font-weight: bold;
+}
+.main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 120px 100px;
+    row-gap: 10px;
+    
+}
+.main2{
+    display: grid;
+    grid-template-columns: 200px 120px 100px;
+    column-gap: 10px;
+    
+}
+.input1{
+    height: 34px;
+    font-family: Arial;
+    font-size: 15px;
+}
+.input2{
+    font-family: Arial;
+    font-size: 15px;
+    color: gray;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: rgb(6, 117, 15);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.dlt-btn{
+    height: 34px;
+    font-size: 18px;
+    background-color: rgb(119, 3, 3);
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
